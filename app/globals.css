@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000;
+  color: #EAEAEA;
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+.neon-text-red {
+  color: #FF355E;
+  text-shadow: 0 0 10px #FF355E, 0 0 20px #FF355E;
+}
+
+.neon-text-yellow {
+  color: #FFD400;
+  text-shadow: 0 0 10px #FFD400, 0 0 20px #FFD400;
+}
+
+.neon-text-green {
+  color: #39FF14;
+  text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;
+}
+
+.neon-border-red {
+  border-color: #FF355E;
+  box-shadow: 0 0 10px #FF355E, inset 0 0 10px rgba(255, 53, 94, 0.2);
+}
+
+.neon-border-yellow {
+  border-color: #FFD400;
+  box-shadow: 0 0 10px #FFD400, inset 0 0 10px rgba(255, 212, 0, 0.2);
+}
+
+.neon-border-green {
+  border-color: #39FF14;
+  box-shadow: 0 0 10px #39FF14, inset 0 0 10px rgba(57, 255, 20, 0.2);
+}
+
+button, a, input, textarea {
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF355E;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFD400;
+}
